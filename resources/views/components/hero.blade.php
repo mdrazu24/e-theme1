@@ -1,6 +1,6 @@
 <div class="mb-2">
     <div class="row justify-content-around">
-        <div class="accordion col-md-3 d-none d-md-block  " id="accordionExample">
+        <div class="accordion col-md-3 mb-2  " id="accordionExample">
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
                     <button class="bg-primary text-white w-100 d-flex justify-content-between fs-4 py-2 px-3 border-0 "
@@ -44,12 +44,12 @@
 
         <div class="col-12 col-md-7  p-0">
             <!-- Slider main container -->
-            <div class="swiper mainSwiper  w-100" style="height: 390px">
+            <div class="swiper mainSwiper">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper  w-100">
                     <!-- Slides -->
                     <div class="swiper-slide overflow-hidden position-relative">
-                        <img style="object-fit: contain "
+                        <img class="figure-img img-fluid" class="" style="object-fit: contain "
                             src="https://www.themagnifico.net/eard/ecommerce-wordpress-theme/wp-content/themes/ecommerce-zone-pro/assets/images/offer1/banner1.jpg"
                             alt="eventimage" />
                         <div class="content position-absolute" style="top: 80px; left : 57px">
@@ -61,7 +61,7 @@
 
                     </div>
                     <div class="swiper-slide overflow-hidden position-relative">
-                        <img style="object-fit: contain "
+                        <img class="figure-img img-fluid" style="object-fit: contain "
                             src="https://www.themagnifico.net/eard/ecommerce-wordpress-theme/wp-content/themes/ecommerce-zone-pro/assets/images/offer1/banner1.jpg"
                             alt="eventimage" />
                         <div class="content position-absolute" style="top: 80px; left : 57px">
@@ -73,7 +73,7 @@
 
                     </div>
                     <div class="swiper-slide overflow-hidden position-relative">
-                        <img style="object-fit: contain "
+                        <img class="figure-img img-fluid" style="object-fit: contain "
                             src="https://www.themagnifico.net/eard/ecommerce-wordpress-theme/wp-content/themes/ecommerce-zone-pro/assets/images/offer1/banner1.jpg"
                             alt="eventimage" />
                         <div class="content position-absolute" style="top: 80px; left : 57px">
@@ -92,7 +92,7 @@
 
             <div class="row mb-4  justify-content-around align-items-center ">
                 <div class="col-12  col-md-5 overflow-hidden  gap-6 position-relative">
-                    <img height="150" class="w-100"  style="object-fit: contain border border-primary"
+                    <img height="150" class="w-100" style="object-fit: contain border border-primary"
                         src="https://www.themagnifico.net/eard/ecommerce-wordpress-theme/wp-content/themes/ecommerce-zone-pro/assets/images/offer1/banner2.jpg"
                         alt="something" />
 
@@ -139,15 +139,22 @@
 
 
 <style>
-    /* .mainSwiper img {
-        border : 5px solid red;
-        object-fit: contain;
-        object-position: left;
-        height : 200px !important;
-        width:  : 100vw !important;
-    } */
+    .mainSwiper {
+        height: 400px !important;
 
+    }
 
+    .mainSwiper img {
+        height: 200px !important;
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
 
+    }
 
+    @media only screen and (max-width: 768px) {
+        .mainSwiper {
+            height: 250px !important;
+        }
+    }
 </style>
