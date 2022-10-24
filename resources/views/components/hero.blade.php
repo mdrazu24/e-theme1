@@ -52,7 +52,8 @@
                         <img class="figure-img img-fluid" class="" style="object-fit: contain "
                             src="https://www.themagnifico.net/eard/ecommerce-wordpress-theme/wp-content/themes/ecommerce-zone-pro/assets/images/offer1/banner1.jpg"
                             alt="eventimage" />
-                        <div class="content position-absolute" style="top: 80px; left : 57px">
+                        <div class="content position-absolute"
+                            style="top: 80px; left : 57px">
                             <h1 class="text-primary fw-bolder">99</h1>
                             <h2 class="fw-bolder">New Arrivals!!!</h2>
                             <p>Checkout the summer collections</p>
@@ -64,7 +65,8 @@
                         <img class="figure-img img-fluid" style="object-fit: contain "
                             src="https://www.themagnifico.net/eard/ecommerce-wordpress-theme/wp-content/themes/ecommerce-zone-pro/assets/images/offer1/banner1.jpg"
                             alt="eventimage" />
-                        <div class="content position-absolute" style="top: 80px; left : 57px">
+                        <div class="content position-absolute"
+                            style="top: 80px; left : 57px">
                             <h1 class="text-primary fw-bolder">100+</h1>
                             <h2 class="fw-bolder">New Arrivals!!!</h2>
                             <p>Checkout the winter collections</p>
@@ -76,7 +78,8 @@
                         <img class="figure-img img-fluid" style="object-fit: contain "
                             src="https://www.themagnifico.net/eard/ecommerce-wordpress-theme/wp-content/themes/ecommerce-zone-pro/assets/images/offer1/banner1.jpg"
                             alt="eventimage" />
-                        <div class="content position-absolute" style="top: 80px; left : 57px">
+                        <div class="content position-absolute"
+                            style="top: 80px; left : 57px">
                             <h1 class="text-primary fw-bolder">50</h1>
                             <h2 class="fw-bolder">New Arrivals!!!</h2>
                             <p>Checkout the fall collections</p>

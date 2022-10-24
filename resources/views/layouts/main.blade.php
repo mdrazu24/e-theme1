@@ -84,7 +84,7 @@
     {{-- header --}}
 
     {{-- header modal menu --}}
-    <div class="headerMenu" x-show="open"
+    <div class="headerMenu" x-transition.origin.top.left x-show="open"
         style="z-index: 1000; position: absolute; top: 0; right: 0; bottom: 0; left: 0; background-color: rgba(0, 0, 0, 0.443); ">
         <div class="position-fixed top-0 left-0 bg-white" style="bottom: 0; width: 50vw;">
             <div class="w-100  d-flex justify-content-end p-4 "> <button @click="open = ! open" type="button"
