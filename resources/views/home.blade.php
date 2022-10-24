@@ -55,6 +55,7 @@
             <h1 class="h2">OUR PRODUCTS</h1>
             <p class="btn btn-link">more>></p>
         </div>
+        {{-- something --}}
 
         <x-products />
     </div>
