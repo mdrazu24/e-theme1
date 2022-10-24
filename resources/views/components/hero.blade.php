@@ -4,7 +4,7 @@
             <div class="accordion-item">
                 <h2 class="accordion-header" id="headingOne">
                     <button class="bg-primary text-white w-100 d-flex justify-content-between fs-4 py-2 px-3 border-0 "
-                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                        type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false"
                         aria-controls="collapseOne">
                         Categories
                         <i class="fa-solid fa-bars"></i>

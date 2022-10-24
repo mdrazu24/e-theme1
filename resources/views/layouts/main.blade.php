@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Laravel</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <!-- Fonts -->
@@ -13,7 +14,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
     <style>
         body {
@@ -23,7 +23,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js', 'resources/sass/app.scss'])
 </head>
 
-<body x-data="{ open: false }" class="antialiased position-relative">
+<body x-data="{ open: false }" x-cloak class="antialiased position-relative">
     {{-- header --}}
 
     <nav class="navbar p-0  bg-light border">
@@ -84,33 +84,34 @@
     {{-- header --}}
 
     {{-- header modal menu --}}
-    <div x-show="open"
+    <div class="headerMenu" x-show="open"
         style="z-index: 1000; position: absolute; top: 0; right: 0; bottom: 0; left: 0; background-color: rgba(0, 0, 0, 0.443); ">
         <div class="position-fixed top-0 left-0 bg-white" style="bottom: 0; width: 50vw;">
-            <div class="w-100  d-flex justify-content-end p-4 "> <button  @click="open = ! open" type="button" class="btn-close float-left" aria-label="Close"></button>
+            <div class="w-100  d-flex justify-content-end p-4 "> <button @click="open = ! open" type="button"
+                    class="btn-close float-left" aria-label="Close"></button>
             </div>
 
-            <div class="p-4"  >
+            <div class="p-4">
                 <div class="p-0 d-flex align-items-start justify-content-start">
-                        <ul
-                            style="display:  flex; flex-direction: column; row-gap: 10px;  padding: 4px; padding-top: 6px; color : rgb(7, 22, 41); align-items: flex-start">
-                            <li  class="btn text-primary fw-bold ">
-                                <i class="fa-solid fa-arrow-right"></i> Home
-                            </li>
-                            <li class="btn">
-                                <i class="fa-solid fa-arrow-right"></i> Products
-                            </li>
+                    <ul
+                        style="display:  flex; flex-direction: column; row-gap: 10px;  padding: 4px; padding-top: 6px; color : rgb(7, 22, 41); align-items: flex-start">
+                        <li class="btn text-primary fw-bold ">
+                            <i class="fa-solid fa-arrow-right"></i> Home
+                        </li>
+                        <li class="btn">
+                            <i class="fa-solid fa-arrow-right"></i> Products
+                        </li>
 
-                            <li class="btn">
-                                <i class="fa-solid fa-arrow-right"></i> Blogs
-                            </li>
-                            <li class="btn">
-                                <i class="fa-solid fa-arrow-right"></i> Contacts
-                            </li>
+                        <li class="btn">
+                            <i class="fa-solid fa-arrow-right"></i> Blogs
+                        </li>
+                        <li class="btn">
+                            <i class="fa-solid fa-arrow-right"></i> Contacts
+                        </li>
 
 
-                        </ul>
-                    </div>
+                    </ul>
+                </div>
 
             </div>
 
@@ -130,6 +131,7 @@
 
     </div>
 
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
 
