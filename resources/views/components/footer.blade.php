@@ -1,6 +1,6 @@
   <div class="container">
       <div class="row justify-content-around ">
-          <div class="col-4 bg-white fw-bolder mt-4 mb-4 p-4 shadow-md rounded ">
+          <div class="col-12 col-md-4 bg-white fw-bolder mt-4 mb-4 p-4 shadow-md rounded ">
               Suspendisse non nisl sit amet velit hendrerit rutrum. Ut leo.
               <div class=" w-100   py-2 fs-6 d-flex flex-column gap-2 text-gray-600 ">
                   <div><i class="fa-solid fa-phone">
@@ -20,7 +20,7 @@
               </div>
           </div>
 
-          <div class="col-4 text-white p-4 ">
+          <div class="col-12 col-md-4 text-white p-4 ">
               <h3>Important Links</h3>
               <div class="p-0 d-flex  align-items-start justify-content-start">
                   <ul
@@ -48,7 +48,7 @@
                   </ul>
               </div>
           </div>
-          <div class="col-4 text-white p-4 ">
+          <div class="col-12 col-md-4 text-white p-4 ">
               <h3>Product categories</h3>
               <div class="p-0 d-flex  align-items-start justify-content-start">
                   <ul
@@ -77,4 +77,5 @@
               </div>
           </div>
       </div>
+
   </div>
